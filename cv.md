@@ -1,7 +1,7 @@
 ## [rsschool-cv](rsccool-cv)
 
 
-# Ilya Korzzun
+# Ilya Korzun
 
 # Contacts
 
