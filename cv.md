@@ -23,8 +23,8 @@ My name is Ilya, I'm a coder and UX/UI designer from Minsk. I am developing a th
 * JavaScript.
 * Version control: Git (remote service GitHub).
 * Module Bundlers: Gulp, Webpack.
-* Figma(for web design)
-* Editors: Sublime, Brackets, **VSCode**.
+* Figma(for web design).
+* Editors: Sublime, Brackets, VSCode.
 
 # Code examples
 
@@ -63,10 +63,10 @@ console.log(longestWord);
 
 * Freelance exchanges: Weblancer, Kwork (Since 2021).
 
-* Administration of the website of the educational institution (2021 - today)
+* Administration of the website of the educational institution (2021 - today).
 
 # Languages
 
-- Belarussian (native)
-- Russian (native)
+- Belarussian (Native)
+- Russian (Native)
 - English (B1)
