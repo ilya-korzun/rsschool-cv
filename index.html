@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ilya Korzun — CV#2. HTML, CSS & Git Basics</title>
+</head>
+
+<body>
+    <div class="container">
+        <aside class="aside">
+            <div class="aside__photo">
+                <img src="img/photo.jpg" alt="photo">
+            </div>
+
+            <section class="education">
+                <h2>Education</h2>
+                <div class="divider_yellow"></div>
+                <div class="education__place">
+                    HTML Academy
+                    <p class="education__descr">
+                        <a href="https://htmlacademy.ru" target="_blank">HTML/CSS/Basic JS</a>
+                        <a href="https://htmlacademy.ru" target="_blank">Basic JS</a>
+                    </p>
+                    Udemy
+                    <p class="education__descr">
+                        <a href="https://www.udemy.com/course/javascript_full" target="_blank">JS + React</a>
+                    </p>
+                </div>
+            </section>
+
+            <section class="contacts">
+                <h2>Contacts</h2>
+                <div class="divider_yellow"></div>
+                <ul class="contacts__wrapper">
+                    <li class="contacts__phone"><a href="tel:+375298982316" target="_blank">+375 29 898-23-16</a></li>
+                    <li class="contacts__e-mail"><a href="mailto:korsynilya77@gmail.com" target="_blank">Mail</a></li>
+                    <li class="contacts__telegram"><a href="https://t.me/ilya-korzun" target="_blank">Telegram</a></li>
+                </ul>
+            </section>
+
+            <section class="skills">
+                <h2>Skills</h2>
+                <div class="divider_yellow"></div>
+                <ul class="skills__list">
+                    <li class="skills__html">HTML</li>
+                    <li class="skills__css">CSS</li>
+                    <li class="skills__sass">SASS</li>
+                    <li class="skills__bootstrap">Bootstrap</li>
+                    <li class="skills__git">Git</li>
+                    <li class="skills__javascript">JavaScript</li>
+                    <li class="skills__figma">Figma</li>
+                </ul>
+            </section>
+        </aside>
+
+        <main class="main">
+            <header class="header">
+                <div class="name">
+                    Ilya Korzun
+                </div>
+                <div class="prof">
+                    Future Full-Stack Dev & UX/UI Designer
+                </div>
+            </header>
+
+            <div class="main__wrapper">
+                <section class="about">
+                    <h2>About Me</h2>
+                    <div class="divider_black"></div>
+                    <p class="about__descr">
+                        My name is Ilya, I’m a coder and UX/UI designer from Minsk. I am developing a thoughtful,
+                        creative, and most importantly, selling design and a clean, valid, cross-browser layout. Working
+                        with me, your site will always work quickly, reliably, error-free and efficiently!
+                    </p>
+                    <h3>My strengths:</h3>
+                    <ul class="about__strengths">
+                        <li>Quick learner</li>
+                        <li>Full immersion in the essence of the problems</li>
+                        <li>Diligence</li>
+                        <li>Team playing</li>
+                    </ul>
+                    <h3>Languages</h3>
+                    <ul class="about__languages">
+                        <li>Belarussian - Native</li>
+                        <li>Russian - Native</li>
+                        <li>English - B2</li>
+                    </ul>
+                </section>
+
+                <section class="code-example">
+                    <h2>Code example</h2>
+                    <div class="divider_black"></div>
+                    <pre>
+                        <code>
+                            function bmi(weight, height) { <br>
+                                const bmi = weight/(height * height); <br>
+                                
+                                return bmi &lt;= 18.5 ? 'Underweight': bmi &lt;= 25 ? <br>
+                                'Normal': bmi &lt;= 30 ? 'Overweight': 'Obese'; <br>
+                                }
+                        </code>
+                        <code>
+                            function bmi(weight, height) { <br>
+                                const bmi = weight/(height * height); <br>
+                                
+                                return bmi &lt;= 18.5 ? 'Underweight': bmi &lt;= 25 ? <br>
+                                'Normal': bmi &lt;= 30 ? 'Overweight': 'Obese'; <br>
+                                }
+                        </code>
+                    </pre>
+                </section>
+            </div>
+
+            <footer class="footer">
+                <div>
+                    <a href="https://github.com/ilya-korzun" target="_blank">
+                        <img src="img/icons/github.svg" alt="github_icon">
+                    </a>
+                </div>
+                <div>
+                    <a href="https://rs.school/js/" target="_blank">
+                        <img src="img/icons/rs_school_js.svg" alt="rs-school-logo">
+                    </a>
+                </div>
+            </footer>
+        </main>
+    </div>
+</body>
+
+</html>
